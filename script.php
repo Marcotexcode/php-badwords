@@ -30,19 +30,20 @@
     <h2>Paragrafo originale</h2>
 
     <!-- Stampare a schermo  la sua lunghezza. -->
-    <h2>lunghezza: <?php echo $lunghezzaText; ?></h2>
+    <h4>lunghezza: <?php echo $lunghezzaText; ?></h4>
 
     <!-- Stampare a schermo il paragrafo. -->
     <p><?php echo $text; ?></p>
 
-    <!-- Una parola da censurare viene passata dall'utente tramite parametro GET.  -->
-    <p><strong>Parola scritta dall utente:</strong>  <?php echo $parolaUtente; ?></p>
-
 
     <h2>Paragrafo censurato</h2>
 
-    <!-- Stampare di nuovo il paragrafo e la sua lunghezza -->
-    <h2>lunghezza: <?php echo $lungCensText; ?></h2>
+
+    <!-- Una parola da censurare viene passata dall'utente tramite parametro GET.  -->
+    <p><strong>Parola scritta dall utente:</strong>  <?php echo $parolaUtente; ?></p>
+
+    <!-- Stampare di nuovo il paragrafo  censurato e la sua lunghezza -->
+    <h4>lunghezza: <?php echo $lungCensText; ?></h4>
     <p><?php echo $textCensura; ?></p>
 
     
